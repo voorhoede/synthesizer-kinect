@@ -5,11 +5,24 @@
 </head>
 <body>
 
-<h1>Kinect Synthesizer!</h1>
+<div id="page-wrapper" class="clearfix">
 
-<canvas>
+	<h1>Kinect Synthesizer!</h1>
 
-</canvas>
+	<canvas id="synth-pad"></canvas>
+	<div id="info">
+		<h1>Web Audio Synth Pad</h1>
+		<p>
+			Click and drag the mouse over the synthesizer pad to generate a sound.
+		</p>
+		<p>
+			Frequency: <span id="frequency">n/a</span>
+		</p>
+		<p>
+			Volume: <span id="volume">n/a</span>
+		</p>
+	</div>
+</div>
 
 </body>
 <script src="scripts/tuna.js"></script>
